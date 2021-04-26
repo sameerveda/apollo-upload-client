@@ -3,7 +3,6 @@
 exports.createUploadLink = require('./createUploadLink');
 exports.formDataAppendFile = require('./formDataAppendFile');
 exports.isExtractableFile = require('./isExtractableFile');
-exports.ReactNativeFile = require('./ReactNativeFile');
 
 /**
  * A React Native [`File`](https://developer.mozilla.org/en-US/docs/Web/API/File)

@@ -10,9 +10,8 @@ const {
   selectURI,
   serializeFetchParameter,
 } = require('@apollo/client/link/http');
-const extractFiles = require('extract-files/public/extractFiles');
+const { extractFiles, isExtractableFile } = require('extract-files');
 const formDataAppendFile = require('./formDataAppendFile');
-const isExtractableFile = require('./isExtractableFile');
 
 /**
  * Creates a [terminating Apollo Link](https://apollographql.com/docs/link/overview/#terminating-links)
